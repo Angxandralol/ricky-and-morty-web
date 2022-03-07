@@ -4,7 +4,7 @@
 
 <section class="Info-Character">
   <div class="container">
-    <div class="row">
+    <div class="row" *ngIf="this.character">
       <div class="col">
         <div class="img-container">
           <img src="{{this.character.image}}" alt="character-image" class="img">
@@ -24,7 +24,7 @@
         <a href="getInfoRandomCharacter()">
           <img src="../../../assets/Button-random-character2.psd.png" alt="" class="button-img">
         </a>
-      </div>-->
+      </div>
     </div>
   </div>
 </section>
